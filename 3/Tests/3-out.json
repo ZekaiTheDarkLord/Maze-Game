@@ -1,0 +1,10 @@
+[
+    { "row#"    : 2, "column#" : 5 },
+    { "row#"    : 3, "column#" : 4 },
+    { "row#"    : 3, "column#" : 5 },
+    { "row#"    : 4, "column#" : 3 },
+    { "row#"    : 4, "column#" : 4 },
+    { "row#"    : 4, "column#" : 5 },
+    { "row#"    : 5, "column#" : 3 },
+    { "row#"    : 6, "column#" : 3 }
+]

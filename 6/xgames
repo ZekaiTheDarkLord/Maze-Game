@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd Other
+
+java -jar Common-GAME.jar

@@ -1,0 +1,36 @@
+Pair: johnkuang-ruaruarua \
+Commit: [453d1960e5a91f5c1dd0228bd57094b6a94ba66e](https://github.khoury.northeastern.edu/CS4500-F22/johnkuang-ruaruarua/tree/453d1960e5a91f5c1dd0228bd57094b6a94ba66e) \
+Self-eval: https://github.khoury.northeastern.edu/CS4500-F22/johnkuang-ruaruarua/blob/453d1960e5a91f5c1dd0228bd57094b6a94ba66e/2/self-2.md \
+Score: 42/80 \
+Grader: Eshwari Bhide
+
+You did not fill out your self-eval on time, so grading on a 60% scale.
+
+`board: 70/80`=> 60% => 42/80
+
+- WARNING : You should remember from Fundamentals II and III that interfaces aren’t needed unless there are two implementations. You do not need a Board interface; there will always only ever be one Board implementation. See Matthias if you have more questions on this.
+
+- 30/40 pts: an operation that determines the reachable tiles from some spot
+  - [0/10] : is there a data def. for "coordinates" (places to go to)? 
+     - No data definition for this, and if you add one, there needs to be intepretations and further details, e.g. is coordinate (0,0) top-left or bottom-left? Is a Coordinate's x, y literal x, y or row, col? etc
+  - [10/10] : is there a signature/purpose statement? 
+  - [10/10] : is it clear how the method/function checks for cycles? 
+  - [10/10] : is there at least one unit test with a non-empty expected result
+
+- 30/30 pts an operation for sliding a row or column in a direction 
+  - [10/10] sig/purp.
+  - [10/10] the method should check that row/column has even index 
+  - [10/10] unit tests: at least one for rows and one for columns
+
+- 10/10 pts an operation for rotating and inserting the spare tile
+  - Provided clarity on what happens to the tile that's pushed out 
+  - You didn't have an entry for this on your self-eval (even though you did have the functionality), which can lead to points lost in the future
+
+
+`state.md (Ungraded)`
+- Incorrect delivery (wrong folder and wrong name)
+- Player info should also include its goal tile and its color
+- Need information about the spare tile
+- Need information about the last action performed so it is not undone by the next player
+- Keep it up defining types and having method stubs in future design documents (would also help if for method stubs you also add purpose statements)
+
