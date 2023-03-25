@@ -1,0 +1,13 @@
+Delivery
+5/5 pts: Deliverable 5/xchoice exists with the right permissions
+0/5 pts: Deliverable Maze/Players/player.PP not found
+0/5 pts: Deliverable Maze/Referee/referee.PP not found
+5/5 pts: Deliverable Maze/Planning/interactive-player.md exists
+5/5 pts: Delivery of test files
+Functionality
+10/50 pts: Passed 1 out of 5 tests (see test-results.txt)
+0/50 pts: 0 valid tests (see test-audit-results.txt)
+0/30 bonus pts (other teams failing your tests)
+Inspection
+108/160 pts: See inspection.md
+Total: 133/285 pts
